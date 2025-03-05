@@ -1,1 +1,46 @@
-/*# sourceMappingURL=index.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Monomakh&family=Shafarik&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+.App__h1 {
+  font-size: 40px;
+  color: #5f5f5f;
+}
+.App__p {
+  font-size: 100px;
+}
+.App__buttonbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.App__buttonbox-buttonplus {
+  width: 80px;
+  height: 30px;
+  font-size: 25px;
+  border-radius: 5px;
+  border: none;
+  background-color: #66ff7a;
+}
+.App__buttonbox-buttonminus {
+  width: 80px;
+  height: 30px;
+  font-size: 25px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ff6666;
+}/*# sourceMappingURL=index.css.map */
